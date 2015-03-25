@@ -1,0 +1,9 @@
+{
+  "name": "twitter_histogram",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.8.7",
+    "twit": "^1.1.18",
+    "mongoose": "~3.6.13"
+  }
+}
