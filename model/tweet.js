@@ -5,8 +5,9 @@ var Schema = mongoose.Schema;
 var tweetSchema;
 
 tweetSchema = new Schema({
-    id_str: String,
-    created_at: String
-})
+    ID: {type: String, required: true},
+    TweetDate: {type: Date, required: true}
+});
 
-module.exports = mongoose.model('tweet', tweetSchema);
+
+module.exports = mongoose.model('Tweet', tweetSchema);
