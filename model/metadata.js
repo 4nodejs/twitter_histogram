@@ -5,9 +5,10 @@ var Schema = mongoose.Schema;
 var metadataSchema;
 
 metadataSchema = new Schema({
-    since_id: String,
-    date: Date
+    ID: String,
+    maxid: String,
+    searchterm: String
 });
 
 
-module.exports = mongoose.model('metadata', metadataSchema);
+module.exports = mongoose.model('search_meta', metadataSchema);

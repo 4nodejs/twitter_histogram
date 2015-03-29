@@ -4,7 +4,9 @@
   "dependencies": {
     "express": "^4.8.7",
     "twit": "^1.1.18",
-    "mongoose": "~3.6.13"
+    "mongoose": "~3.6.13",
+    "async": "*",
+    "oauth": "*"
   },
   "author": "Pavan Tallapragada",
   "license": "MIT"
