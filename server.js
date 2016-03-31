@@ -256,12 +256,13 @@ function getMaxID(req) {
                 get_maxid_url,
                 token,
                 secret,
-                function (error, data, res) {
+                function (err, data, res) {
 
                     if (err) {
                         console.log(" Error getting the max_id from twitter " + err);
                     }
-
+                    console.log(err)
+                    console.log(data)
                     var maxidtweets = JSON.parse(data);
                     ;
 
